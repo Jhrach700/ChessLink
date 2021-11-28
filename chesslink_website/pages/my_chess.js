@@ -152,8 +152,6 @@ export default function test() {
         let response = "r3r1k1/ppnqbppb/3p1n1p/2pP4/2P1PBP1/2NN3P/PPQ3B1/R4RK1 w - - 7 17zzzr3r1k1/ppnqbppb/3p1n1p/2pP4/2P1PBP1/2NN3P/PPQ3B1/R4RK1 w - - 7 17zzzr3r3/ppnqbppk/3p1nbp/2pP4/2P1PBP1/2NN3P/PP1Q2B1/4RRK1 w - - 11 19zzzcosmo74zzzedi1991"
         //alert(response)
 
-        /// For now just wizard of oz and assume 2 critical games.. 
-        ///Eventually can make more sophisticated parsing
 
         let critical_pos = []
         for (let i = 0; i < 3; i++) {
