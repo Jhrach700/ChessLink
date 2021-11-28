@@ -109,7 +109,6 @@ export default function test() {
     await signer.getAddress().then( e => {
       let nc = critical_positions.slice()
       nc[i].minted = "true"
-      //alert("obtained boys")
       //alert(e)
       nc[i].original_minter = e.toString()
       setCriticalPositions(nc)
