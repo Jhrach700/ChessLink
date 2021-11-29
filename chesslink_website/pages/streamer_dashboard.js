@@ -14,8 +14,8 @@ import {ipfs} from 'C://Users/jhrac/Downloads/data.json';
 import Market from '../artifacts/contracts/Market.sol/NFTMarket.json'
 import NFT from '../artifacts/contracts/NFT.sol/NFT.json'
 
-import "C://Users/jhrac/CouponMint/chainlink/polygon-ethereum-nextjs-marketplace/node_modules/cm-chessboard/assets/styles/cm-chessboard.css"
-import {Chessboard, INPUT_EVENT_TYPE, MOVE_INPUT_MODE, COLOR} from "C://Users/jhrac/CouponMint/chainlink/polygon-ethereum-nextjs-marketplace/node_modules/cm-chessboard/src/cm-chessboard/Chessboard.js"
+import "../node_modules/cm-chessboard/assets/styles/cm-chessboard.css"
+import {Chessboard, INPUT_EVENT_TYPE, MOVE_INPUT_MODE, COLOR} from "../node_modules/cm-chessboard/src/cm-chessboard/Chessboard.js"
 let { networkConfig, autoFundCheck ,chaincontractConfig } = require('../helper-hardhat-config')
 let additionalMessage = ""
 let linkTokenAddress=networkConfig[42]['linkToken']
